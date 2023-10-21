@@ -1,5 +1,17 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        //Tipos primitivos
+
+        String meuNome = "Dudu Montezuma";
+
+        double salarioMinimo = 2500;
+
+        short numeroCurto = 1;
+        int numeronormal = numeroCurto;
+        short numeroCurto2 = (short) numeroNormal;
+
+        //constantes
+
+        final double VALOR_DE_PI = 3.14;
     }
 }
