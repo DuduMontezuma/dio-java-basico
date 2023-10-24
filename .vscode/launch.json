@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContaTerminal",
+            "request": "launch",
+            "mainClass": "ContaTerminal",
+            "projectName": "dio-java-basico_acb146c0"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,11 +22,12 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "args": ["DUDU",
-                    "MONTZ",
-                    "27",
-                    "1.86"
-                    ],
+            "args": [
+                "DUDU",
+                "MONTZ",
+                "27",
+                "1.86"
+            ],
             "projectName": "dio-java-basico_acb146c0"
         },
         {
